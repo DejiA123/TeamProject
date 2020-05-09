@@ -38,6 +38,7 @@ public class Motorcycle extends Vehicle {
         return vehicleYear;
     }
 
+
     public int getSpeed()
     {
         return vehicleSpeed;
