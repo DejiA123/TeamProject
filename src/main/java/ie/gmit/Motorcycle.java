@@ -7,8 +7,10 @@ public class Motorcycle extends Vehicle {
 
     private int vehicleSpeed;
 
-    public Motorcycle(String vehicleType, String vehicleID, int vehicleYear) {
-        if (vehicleType == null || vehicleID == null) {
+    public Motorcycle(String vehicleType, String vehicleID, int vehicleYear)
+    {
+        if (vehicleType == null || vehicleID == null)
+        {
             throw new IllegalArgumentException("A make and model are required to construct a motorcycle.");
         }
         this.vehicleType = vehicleType;
@@ -17,6 +19,7 @@ public class Motorcycle extends Vehicle {
 
         this.vehicleSpeed = 0;
     }
+
     public void drive()
     {
         this.vehicleSpeed = 75;
@@ -43,5 +46,8 @@ public class Motorcycle extends Vehicle {
     {
         return vehicleSpeed;
     }
-    public String toString() { return "This motorcycle is a " + vehicleYear + "" + vehicleType + "" + vehicleID + ";"; }
+    public String toString()
+    {
+        return "This motorcycle is a " + vehicleYear + "" + vehicleType + "" + vehicleID + ";";
+    }
 }

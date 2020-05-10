@@ -1,12 +1,12 @@
 package ie.gmit;
 
-public class Car extends Vehicle {
+public class Van extends Vehicle
+{
     private String vehicleType;
     private String vehicleID;
     private int vehicleYear;
     private int vehicleSpeed;
-
-    public Car(String vehicleType, String vehicleID, int vehicleYear)
+    public Van(String vehicleType, String vehicleID, int vehicleYear)
     {
         if (vehicleType == null || vehicleID == null)
         {
@@ -18,7 +18,6 @@ public class Car extends Vehicle {
 
         this.vehicleSpeed = 0;
     }
-
     public void drive()
     {
         this.vehicleSpeed = 75;
