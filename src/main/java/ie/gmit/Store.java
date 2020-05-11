@@ -15,9 +15,9 @@ public class Store {
         }
     }
 
-    public User getUser(String motocycle){
+    public User getUser(String motorcycle){
         synchronized (STORAGE){
-            return STORAGE.get(motocycle);
+            return STORAGE.get(motorcycle);
         }
     }
 
