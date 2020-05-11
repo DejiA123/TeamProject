@@ -3,11 +3,14 @@ package ie.gmit;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Store {
+public class Store
+{
     private static final Map<String, User> STORAGE = new HashMap<>();
 
-    public void store(User user) {
-        synchronized(STORAGE) {
+    public void store(User user)
+    {
+        synchronized(STORAGE)
+        {
             STORAGE.put(user.getCar(), user);
             STORAGE.put(user.getMotorcycle(), user);
             STORAGE.put(user.getTrailer(), user);
@@ -15,24 +18,26 @@ public class Store {
         }
     }
 
-    public User getUser(String motorcycle){
-        synchronized (STORAGE){
+    public User getUser(String motorcycle)
+    {
+        synchronized (STORAGE)
+        {
             return STORAGE.get(motorcycle);
         }
     }
 
-    public User getUser1(String car) {
+    public User getUser1(String car)
+    {
         synchronized (STORAGE) {
             return STORAGE.get(car);
         }
 
     }
 
-    public User getUser2(String trailer) {
+    public User getUser2(String trailer)
+    {
         synchronized(STORAGE) {
             return STORAGE.get(trailer);
         }
-
     }
-
 }

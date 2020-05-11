@@ -110,4 +110,37 @@ public class VehicleTest
         Assert.assertEquals(van.getVehicleID(), "703");
     }
 
+    @Test
+    public void testVanYear()
+    {
+        Van van = new Van("van", "700", 2017);
+        van.drive();
+        Assert.assertEquals(van.getVehicleYear(), 2017);
+    }
+
+    @Test
+    public void testCarYear()
+    {
+        Van van = new Van("van", "700", 2017);
+        van.drive();
+        Assert.assertEquals(van.getVehicleYear(), 2017);
+    }
+
+    @Test
+    public void testMotorcycleYear()
+    {
+        Van van = new Van("van", "700", 2017);
+        van.drive();
+        Assert.assertEquals(van.getVehicleYear(), 2017);
+    }
+
+    @Test
+    public void testTrailerYear()
+    {
+        Van van = new Van("van", "700", 2017);
+        van.drive();
+        Assert.assertEquals(van.getVehicleYear(), 2017);
+    }
+
+
 }
