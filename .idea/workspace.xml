@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5dea6432-32cb-4290-a777-9394087d57d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ie/gmit/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ie/gmit/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/VehicleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/VehicleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ie/gmit/VehicleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ie/gmit/VehicleTest.class" afterDir="false" />
     </list>
@@ -122,7 +120,7 @@
       <workItem from="1589041084936" duration="5292000" />
       <workItem from="1589060110632" duration="561000" />
       <workItem from="1589129869840" duration="4341000" />
-      <workItem from="1589134978990" duration="9144000" />
+      <workItem from="1589134978990" duration="9728000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit.">
       <created>1589049689834</created>
@@ -145,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589215893731</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fifth commit.">
+      <created>1589216830508</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589216830508</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +172,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Second commit." />
     <MESSAGE value="forth commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="forth commit." />
+    <MESSAGE value="fifth commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="fifth commit." />
   </component>
 </project>
