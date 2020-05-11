@@ -80,6 +80,7 @@ public class VehicleTest
         }
     }
 
+
     @Test
     public void testCarID()
     {
@@ -111,6 +112,7 @@ public class VehicleTest
         van.drive();
         Assert.assertEquals(van.getVehicleID(), "703");
     }
+
 
     @Test
     public void testVanYear()
