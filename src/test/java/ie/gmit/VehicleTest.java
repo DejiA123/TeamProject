@@ -77,4 +77,37 @@ public class VehicleTest
         trailer.drive();
         Assert.assertEquals(trailer.getSpeed(), 74);
     }
+
+    @Test
+    public void testCarID()
+    {
+        Car car = new Car("Car", "700", 2017);
+        car.drive();
+        Assert.assertEquals(car.getVehicleID(), "700");
+    }
+
+    @Test
+    public void testMotorcycleID()
+    {
+        Motorcycle motorcycle = new Motorcycle("Motorcycle", "700", 2017);
+        motorcycle.drive();
+        Assert.assertEquals(motorcycle.getVehicleID(), "701");
+    }
+
+    @Test
+    public void testTrailerID()
+    {
+        Trailer trailer = new Trailer("Trailer", "700", 2017);
+        trailer.drive();
+        Assert.assertEquals(trailer.getVehicleID(), "702");
+    }
+
+    @Test
+    public void testVanID()
+    {
+        Van van = new Van("van", "700", 2017);
+        van.drive();
+        Assert.assertEquals(van.getVehicleID(), "703");
+    }
+
 }

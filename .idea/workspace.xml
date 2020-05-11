@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dea6432-32cb-4290-a777-9394087d57d0" name="Default Changelist" comment="Second commit.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/Trailer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/Van.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ie/gmit/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ie/gmit/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/Motorcycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ie/gmit/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ie/gmit/VehicleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ie/gmit/VehicleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ie/gmit/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ie/gmit/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ie/gmit/Motorcycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ie/gmit/Motorcycle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ie/gmit/VehicleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ie/gmit/VehicleTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,18 +76,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="All in Vehiclescanner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Vehiclescanner" />
-      <option name="PACKAGE_NAME" value="" />
+  <component name="RunManager" selected="JUnit.ie.gmit in Vehiclescanner">
+    <configuration name="VehicleTest.testCarIsInstanceOfVehicle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TeamProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ie.gmit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ie.gmit" />
+      <option name="MAIN_CLASS_NAME" value="ie.gmit.VehicleTest" />
+      <option name="METHOD_NAME" value="testCarIsInstanceOfVehicle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ie.gmit in Vehiclescanner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TeamProject" />
+      <option name="PACKAGE_NAME" value="ie.gmit" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in Vehiclescanner" />
+        <item itemvalue="JUnit.ie.gmit in Vehiclescanner" />
+        <item itemvalue="JUnit.VehicleTest.testCarIsInstanceOfVehicle" />
       </list>
     </recent_temporary>
   </component>
@@ -110,6 +124,7 @@
       <workItem from="1589041084936" duration="5292000" />
       <workItem from="1589060110632" duration="561000" />
       <workItem from="1589129869840" duration="4341000" />
+      <workItem from="1589134978990" duration="8045000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit.">
       <created>1589049689834</created>
