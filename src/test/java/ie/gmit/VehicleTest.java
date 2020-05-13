@@ -1,8 +1,6 @@
 package ie.gmit;
-
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
-
 public class VehicleTest
 {
     @Test
@@ -11,8 +9,6 @@ public class VehicleTest
         Car car = new Car("Car", "234", 2016);
         Assert.assertTrue(car instanceof Vehicle);
     }
-
-
     @Test
     public void testVehicleType1()
     {
@@ -20,7 +16,6 @@ public class VehicleTest
         car.drive();
         Assert.assertEquals(car.getVehicleType(), "Car");
     }
-
     @Test
     public void testVehicleType2()
     {
@@ -28,7 +23,6 @@ public class VehicleTest
         trailer.drive();
         Assert.assertEquals(trailer.getVehicleType(), "Trailer");
     }
-
     @Test
     public void testVehicleType3()
     {
@@ -36,7 +30,6 @@ public class VehicleTest
         motorcycle.drive();
         Assert.assertEquals(motorcycle.getVehicleType(), "Motorcycle");
     }
-
     @Test
     public void testVehicleType4()
     {
@@ -44,8 +37,6 @@ public class VehicleTest
         van.drive();
         Assert.assertEquals(van.getVehicleType(), "Van");
     }
-
-
     @Test
     public void testCarSpeed()
     {
@@ -53,7 +44,6 @@ public class VehicleTest
         car.drive();
         Assert.assertEquals(car.getSpeed(), 60);
     }
-
     @Test
     public void testMotorcycleSpeed()
     {
@@ -61,7 +51,6 @@ public class VehicleTest
         motorcycle.drive();
         Assert.assertEquals(motorcycle.getSpeed(), 74);
     }
-
     @Test
     public void testVanSpeed()
     {
@@ -69,7 +58,6 @@ public class VehicleTest
         van.drive();
         Assert.assertEquals(van.getSpeed(), 74);
     }
-
     @Test
     public void testTrailerSpeed()
     {
@@ -79,8 +67,6 @@ public class VehicleTest
             Assert.assertEquals(trailer.getSpeed(), 74);
         }
     }
-
-
     @Test
     public void testCarID()
     {
@@ -88,7 +74,6 @@ public class VehicleTest
         car.drive();
         Assert.assertEquals(car.getVehicleID(), "700");
     }
-
     @Test
     public void testMotorcycleID()
     {
@@ -96,7 +81,6 @@ public class VehicleTest
         motorcycle.drive();
         Assert.assertEquals(motorcycle.getVehicleID(), "701");
     }
-
     @Test
     public void testTrailerID()
     {
@@ -104,7 +88,6 @@ public class VehicleTest
         trailer.drive();
         Assert.assertEquals(trailer.getVehicleID(), "702");
     }
-
     @Test
     public void testVanID()
     {
@@ -112,8 +95,6 @@ public class VehicleTest
         van.drive();
         Assert.assertEquals(van.getVehicleID(), "703");
     }
-
-
     @Test
     public void testVanYear()
     {
@@ -121,7 +102,6 @@ public class VehicleTest
         van.drive();
         Assert.assertEquals(van.getVehicleYear(), 2017);
     }
-
     @Test
     public void testCarYear()
     {
@@ -129,7 +109,6 @@ public class VehicleTest
         van.drive();
         Assert.assertEquals(van.getVehicleYear(), 2017);
     }
-
     @Test
     public void testMotorcycleYear()
     {
@@ -137,7 +116,6 @@ public class VehicleTest
         van.drive();
         Assert.assertEquals(van.getVehicleYear(), 2017);
     }
-
     @Test
     public void testTrailerYear()
     {
