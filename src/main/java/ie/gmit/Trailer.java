@@ -14,14 +14,12 @@ public class Trailer extends Vehicle {
         this.vehicleType = vehicleType;
         this.vehicleID = vehicleID;
         this.vehicleYear = vehicleYear;
-
         this.vehicleSpeed = 0;
     }
     public void drive()
     {
         this.vehicleSpeed = 75;
     }
-
     public void park()
     {
         this.vehicleSpeed = 0;
@@ -38,12 +36,10 @@ public class Trailer extends Vehicle {
     {
         return vehicleYear;
     }
-
     public int getSpeed()
     {
         return vehicleSpeed;
     }
-
     public String toString()
     {
         return "This is a " + vehicleYear + "" + vehicleType + ""  + vehicleID + ";";

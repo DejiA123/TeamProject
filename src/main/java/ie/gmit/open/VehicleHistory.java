@@ -15,7 +15,8 @@ public class VehicleHistory {
 
         private Long vehicleId;
 
-        public Name(Long vehicleId, LocalDateTime begin, long duration) {
+        public Name(Long vehicleId, LocalDateTime begin, long duration)
+        {
             this.begin = begin;
             this.duration = duration;
             this.vehicleId = vehicleId;
@@ -24,21 +25,24 @@ public class VehicleHistory {
         /**
          * @return the begin
          */
-        public LocalDateTime getBegin() {
+        public LocalDateTime getBegin()
+        {
             return begin;
         }
 
         /**
          * @return the duration
          */
-        public long getDuration() {
+        public long getDuration()
+        {
             return duration;
         }
 
         /**
          * @return the person
          */
-        public Long getVehicleId() {
+        public Long getVehicleId()
+        {
             return vehicleId;
         }
 
@@ -46,16 +50,19 @@ public class VehicleHistory {
 
     private static final Map<Long, List<Name>> NAMES = new HashMap<>();
 
-    public synchronized static List<Name> getCurrentCalls(Long subscriberId) {
+    public synchronized static List<Name> getCurrentCalls(Long subscriberId)
+    {
         if(!NAMES.containsKey(subscriberId)) {
             return Collections.emptyList();
         }
         return NAMES.get(subscriberId);
     }
 
-    public synchronized static void addSession(Long vehicleId, LocalDateTime begin, long duration) {
+    public synchronized static void addSession(Long vehicleId, LocalDateTime begin, long duration)
+    {
         List<Name> names;
-        if(!NAMES.containsKey(vehicleId)) {
+        if(!NAMES.containsKey(vehicleId))
+        {
             names = new LinkedList<>();
             NAMES.put(vehicleId, names);
         } else {
@@ -63,5 +70,4 @@ public class VehicleHistory {
         }
         names.add(new Name(vehicleId, begin, duration));
     }
-
 }

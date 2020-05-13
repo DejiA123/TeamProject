@@ -1,11 +1,9 @@
 package ie.gmit;
-
 public class Car extends Vehicle {
     private String vehicleType;
     private String vehicleID;
     private int vehicleYear;
     private int vehicleSpeed;
-
     public Car(String vehicleType, String vehicleID, int vehicleYear)
     {
         if (vehicleType == null || vehicleID == null)
@@ -15,15 +13,12 @@ public class Car extends Vehicle {
         this.vehicleType = vehicleType;
         this.vehicleID = vehicleID;
         this.vehicleYear = vehicleYear;
-
         this.vehicleSpeed = 0;
     }
-
     public void drive()
     {
         this.vehicleSpeed = 75;
     }
-
     public void park()
     {
         this.vehicleSpeed = 0;
@@ -40,12 +35,10 @@ public class Car extends Vehicle {
     {
         return vehicleYear;
     }
-
     public int getSpeed()
     {
         return vehicleSpeed;
     }
-
     public String toString()
     {
         return "This is a " + vehicleYear + "" + vehicleType + ""  + vehicleID + ";";
